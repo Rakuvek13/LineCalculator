@@ -1,0 +1,8 @@
+C:\Users\fila0\Desktop\LineCalculator\LineCalculator\bin\Debug\LineCalculator.exe.config
+C:\Users\fila0\Desktop\LineCalculator\LineCalculator\bin\Debug\LineCalculator.exe
+C:\Users\fila0\Desktop\LineCalculator\LineCalculator\bin\Debug\LineCalculator.pdb
+C:\Users\fila0\Desktop\LineCalculator\LineCalculator\obj\Debug\LineCalculator.csproj.AssemblyReference.cache
+C:\Users\fila0\Desktop\LineCalculator\LineCalculator\obj\Debug\LineCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\fila0\Desktop\LineCalculator\LineCalculator\obj\Debug\LineCalculator.csproj.CoreCompileInputs.cache
+C:\Users\fila0\Desktop\LineCalculator\LineCalculator\obj\Debug\LineCalculator.exe
+C:\Users\fila0\Desktop\LineCalculator\LineCalculator\obj\Debug\LineCalculator.pdb
