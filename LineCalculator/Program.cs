@@ -436,30 +436,27 @@ namespace LineCalculator
 
                 try
                 {
+                   
+                    
+                    while (stringWithoutVariables[position - 1] == '*' || stringWithoutVariables[position - 1] == '/' || char.IsNumber(stringWithoutVariables[position - 1]) || stringWithoutVariables[position - 1] == ',')
+                    {
+                        subString = stringWithoutVariables[position - 1] + subString;
+                        position--;
+
+                    }
                     if (stringWithoutVariables[position - 1] == '-')
                     {
-                        subString = "-1";
+                        subString = "-1*"+subString;
                         position--;
                     }
                     else if (stringWithoutVariables[position - 1] == '+')
                     {
-                        subString = "1";
+                        subString = "1*"+subString;
                         position--;
 
                     }
-                    else
-                    {
 
 
-
-                        while (stringWithoutVariables[position - 1] == '*' || stringWithoutVariables[position - 1] == '/' || char.IsNumber(stringWithoutVariables[position - 1]) || stringWithoutVariables[position - 1] == ',')
-                        {
-                            subString = stringWithoutVariables[position - 1] + subString;
-                            position--;
-
-                        }
-                    }
-                   
                 }
                 catch { }
                 
@@ -490,9 +487,13 @@ namespace LineCalculator
                     VariableToDelete += stringWithoutVariables[i];
 
                 }
+
+                
+
                 
                 
                 Fraction multiplicity = Solve(subString);
+                
 
 
 
